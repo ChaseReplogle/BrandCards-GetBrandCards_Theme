@@ -1,0 +1,92 @@
+.phone {
+	background: url('../images/phone.png') no-repeat center top;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	border-bottom: 1px solid black;
+  	margin-top: -40px;
+  	padding-top: 250px;
+  	padding-bottom: 150px;
+
+  	p {
+		margin: 0px 0px 15px 0px;
+		color: white;
+		font-size: 22px;
+		font-weight: 200;
+  	}
+
+  	h2 {
+  		width: 50%;
+  		color: white;
+  		font-size: 45px;
+  		text-transform: uppercase;
+  		line-height: 50px;
+  		margin: 0px;
+  	}
+}
+
+
+.footer {
+	background: $darkestgray;
+	border-bottom: 20px solid $green;
+
+	.links {
+		padding: 0px;
+		margin: 0 auto;
+		width: 100%;
+		display: block;
+		text-align: center;
+
+		li {
+			margin: 0px;
+			padding: 0px;
+			display: inline-block;
+			list-style: none;
+
+			a {
+				color: $lightgray;
+				text-decoration: none;
+				font-size: 20px;
+				padding: 0px 15px;
+
+				&:hover {
+					color: $green;
+				}
+			}
+		}
+	}
+
+	.social {
+		padding: 0px;
+		margin: 0 auto;
+		width: 100%;
+		display: block;
+		text-align: center;
+		padding-top: 60px;
+
+		li {
+			margin: 0px;
+			padding: 0px;
+			display: inline-block;
+			list-style: none;
+
+			img {
+				height: 70px;
+				width: 70px;
+				opacity: .8;
+
+				&:hover {
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+	p {
+		color: $gray;
+		text-align: center;
+		font-size: 13px;
+		margin-bottom: 80px;
+	}
+}
