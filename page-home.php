@@ -20,6 +20,7 @@ get_header(); ?>
 				<div class="text col span_16">
 					<h2>Your Brand Deserves Better</h2>
 					<p>Trying to communicate design decisions in a file name is not working. You put too much work into your brand to let it slowly fall apart. <strong>There’s a better way.</strong></p>
+					<a href="#" class="button">Create An Account</a>
 				</div>
 			</div>
 		</div>
