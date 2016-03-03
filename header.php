@@ -36,7 +36,7 @@
 				<li><a href="#">Learn</a></li>
 				<li><a href="#">Contact</a></li>
 				<li><a href="#"><span>Create Account</span></a></li>
-				<li><a href="http://brandcardsapp.com">login</a></li>
+				<li><a href="http://brandcardsapp.com">Login</a></li>
 			</ul>
 		</div>
 	</div>
