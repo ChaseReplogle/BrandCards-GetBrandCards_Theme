@@ -19,7 +19,7 @@ get_header(); ?>
 				</div>
 				<div class="text col span_16">
 					<h2>Your Brand Deserves Better</h2>
-					<p>You care about your brand. But managing all of the assets and people can be chaos. You end up trying to communicate by ridiculous files names and complicated shared folder systes. We think there is a better way. <strong>We think your brand deserves it...</strong></p>
+					<p>You care about your brand, but managing all of the assets and people can be chaos. You end up trying to communicate by ridiculous files names and complicated shared folder systes. <strong>We think your brand deserves it...</strong></p>
 					<a href="#" class="button">Create An Account</a>
 				</div>
 			</div>
