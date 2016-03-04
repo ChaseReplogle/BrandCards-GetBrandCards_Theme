@@ -99,7 +99,7 @@ get_header(); ?>
 							<li>Create Adobe Color Swatches</li>
 							<li>Invite Users to Collaborate</li>
 						</ul>
-						<a href="https://brandcardsapp.com/membership-account/membership-checkout/?level=1" class="button">Select</a>
+						<a href="https://brandcardsapp.com/membership-account/membership-checkout/?level" target="_Blank" class="button">Select</a>
 					</div>
 
 					<div class="pricing_item col span_8">
@@ -112,7 +112,7 @@ get_header(); ?>
 							<li>Create Adobe Color Swatches</li>
 							<li>Invite Users to Collaborate</li>
 						</ul>
-						<a href="https://brandcardsapp.com/membership-account/membership-checkout/?level=2" class="button">Select</a>
+						<a href="https://brandcardsapp.com/membership-account/membership-checkout/?level=2" target="_Blank" class="button">Select</a>
 					</div>
 
 					<div class="pricing_item col span_8">
@@ -125,7 +125,7 @@ get_header(); ?>
 							<li>Create Adobe Color Swatches</li>
 							<li>Invite Users to Collaborate</li>
 						</ul>
-						<a href="https://brandcardsapp.com/membership-account/membership-checkout/?level=3" class="button">Select</a>
+						<a href="https://brandcardsapp.com/membership-account/membership-checkout/?level=3" target="_Blank" class="button">Select</a>
 					</div>
 				</div>
 
