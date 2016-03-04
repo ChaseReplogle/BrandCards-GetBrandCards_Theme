@@ -19,7 +19,7 @@ get_header(); ?>
 				</div>
 				<div class="text col span_16">
 					<h2>Your Brand Deserves Better</h2>
-					<p>Trying to communicate design decisions in a file name is not working. You put too much work into your brand to let it slowly fall apart. <strong>There’s a better way.</strong></p>
+					<p>You care about your brand. But managing all of the assets and people can be chaos. You end up trying to communicate by ridiculous files names and complicated shared folder systes. We think there is a better way. <strong>We think your brand deserves it...</strong></p>
 					<a href="#" class="button">Create An Account</a>
 				</div>
 			</div>
@@ -28,7 +28,7 @@ get_header(); ?>
 		<div class="app_image">
 			<div class="app_image_wrapper container row">
 				<a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/app_image.png"></a>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod eget justo in posuere. Praesent laoreet, magna eget imperdiet suscipit, tellus odio tincidunt nunc, et vehicula nisi magna eu justo.</p>
+				<p>BrandCards is an online app that allows you to create beautiful brand guidelines, manage all of your brand assets, and empower your team of designers, employees, and vendors. There's a place for everythign: logos, colors, typography, images, graphics, videos...</p>
 			</div>
 		</div>
 
@@ -36,13 +36,13 @@ get_header(); ?>
 			<div class="individual_wrapper container row">
 				<div class="col span_12">
 					<div class="individual_brand">
-						<a href="#" class="individual_brand_link">View the Something Brand</a>
+						<a href="#" class="individual_brand_link">View the Hunter T-Shirt's Brand</a>
 						<a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/brand_item.png"></a>
 					</div>
 				</div>
 				<div class="col span_12 quote">
-					<p class="quote_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod eget justo in posuere. Praesent laoreet, magna eget imperdiet suscipit, tellus odio tincidunt nunc, et vehicula nisi magna eu justo.</p>
-					<p class="quote_reference">Person's Name <span>Their Title</span></p>
+					<p class="quote_text">"BrandCards has transformed the way our business creates and shares brand artwork. I spend less less time digging for old files, emailing attatchments, and trying to rein in old logos. Less time managing means more time dowing what I love—creating."</p>
+					<p class="quote_reference">Patrick Copeland <span><i>Founder, Hunter T-Shirt Company</i></span></p>
 				</div>
 			</div>
 		</div>
@@ -77,15 +77,15 @@ get_header(); ?>
 			<div class="create_screens_wrapper container row">
 				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/create_image.png">
 				<div class="create_screens_text">
-					<h2>Some Copy About Creating</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent euismod eget justo in posuere. Praesent laoreet, magna eget imperdiet suscipit, tellus odio tincidunt nunc, et vehicula nisi magna eu justo.</p>
+					<h2>Your Brand is More Than a Logo</h2>
+					<p>A brand is more than just a logo. Colors, fonts, images, graphics, video—creating a great brand means paying attention to every detail. BrandCards makes it possible to share each and every decision.</p>
 				</div>
 			</div>
 		</div>
 
 		<div class="pricing" id="pricing">
 			<div class="pricing_wrapper container row">
-				<h3>Find a plan that's right for you and your brands.</h3>
+				<h3>Find a Plan That's Right for You and Your Brands</h3>
 				<p>All plans are billed montly and can be canceled at any time, no questions asked.</p>
 
 				<div class="row gutters">

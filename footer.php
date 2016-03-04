@@ -13,8 +13,8 @@
 
 <div class="phone">
 	<div class="phone_wrapper container row">
-		<p>Take your brands with you everywhere you go</p>
-		<h2>Lorem Ipsum dolor sit ament, consectetur adipiscing eleit.</h2>
+		<p>Take your brands with you, everywhere you go</p>
+		<h2>The world is mobile. Your brands should be too.</h2>
 	</div>
 </div>
 
@@ -28,12 +28,12 @@
 			<li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon_youtube.png"></a></li>
 		</ul>
 		<ul class="links">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Demos</a></li>
-			<li><a href="#">Pricing</a></li>
+			<li><a href="/">Home</a></li>
+			<li><a href="#demos">Demos</a></li>
+			<li><a href="#pricing">Pricing</a></li>
 			<li><a href="#">Learn</a></li>
 			<li><a href="#">Contact</a></li>
-			<li><a href="#">Create Account</a></li>
+			<li><a href="http://brandcardsapp.com/membership-account/membership-levels/" target="_Blank">Create Account</a></li>
 		</ul>
 		<p>BrandCards | Copyright 2015 • All Rights Reserved</p>
 	</div>

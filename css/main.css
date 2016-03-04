@@ -358,7 +358,8 @@
     .create_screens .create_screens_text h2 {
       margin: 0px 0px 10px 0px;
       color: #7DCB9B;
-      font-size: 30px; }
+      font-size: 30px;
+      font-weight: normal; }
 
 .pricing {
   background: #F9F9F9;
@@ -427,7 +428,7 @@
     font-size: 22px;
     font-weight: 200; }
   .phone h2 {
-    width: 50%;
+    width: 45%;
     color: white;
     font-size: 45px;
     text-transform: uppercase;

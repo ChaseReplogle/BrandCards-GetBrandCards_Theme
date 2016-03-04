@@ -35,7 +35,7 @@
 				<li><a href="#pricing">Pricing</a></li>
 				<li><a href="#">Learn</a></li>
 				<li><a href="#">Contact</a></li>
-				<li><a href="#"><span>Create Account</span></a></li>
+				<li><a href="http://brandcardsapp.com/membership-account/membership-levels/" target="_Blank"><span>Create Account</span></a></li>
 				<li><a href="http://brandcardsapp.com">Login</a></li>
 			</ul>
 		</div>
