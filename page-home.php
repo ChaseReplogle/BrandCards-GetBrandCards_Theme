@@ -41,7 +41,7 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="col span_12 quote">
-					<p class="quote_text">"BrandCards has transformed the way our business creates and shares brand artwork. I spend less less time digging for old files, emailing attatchments, and trying to rein in old logos. Less time managing means more time dowing what I love—creating."</p>
+					<p class="quote_text">"BrandCards has transformed the way our business creates and shares brand artwork. I spend a lot less time digging through old files, emailing attatchments, and trying to rein in old logos. Less time managing means more time dowing what I love—creating."</p>
 					<p class="quote_reference">Patrick Copeland <span><i>Founder, Hunter T-Shirt Company</i></span></p>
 				</div>
 			</div>
