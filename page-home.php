@@ -36,8 +36,8 @@ get_header(); ?>
 			<div class="individual_wrapper container row">
 				<div class="col span_12">
 					<div class="individual_brand">
-						<a href="#" class="individual_brand_link">View the Hunter T-Shirt's Brand</a>
-						<a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/brand_item.png"></a>
+						<a href="http://hunterts.brandcardsapp.com/" target="_Blank" class="individual_brand_link">View the Hunter T-Shirt's Brand</a>
+						<a href="http://hunterts.brandcardsapp.com/" target="_Blank" ><img src="<?php bloginfo('stylesheet_directory'); ?>/images/brand_item.png"></a>
 					</div>
 				</div>
 				<div class="col span_12 quote">
