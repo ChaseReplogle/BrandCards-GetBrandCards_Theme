@@ -562,6 +562,9 @@
     color: white;
     font-size: 22px;
     font-weight: 200; }
+    @media (max-width: 700px) {
+      .phone p {
+        line-height: 28px; } }
   .phone h2 {
     width: 45%;
     color: white;
