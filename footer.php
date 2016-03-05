@@ -13,8 +13,8 @@
 
 <div class="phone">
 	<div class="phone_wrapper container row">
-		<p>Take your brands with you, everywhere you go</p>
-		<h2>The world is mobile. Your brands should be too.</h2>
+		<p>Take your brands with you, everywhere you go.</p>
+		<h2>The world is mobile. Your brands should be, too.</h2>
 	</div>
 </div>
 

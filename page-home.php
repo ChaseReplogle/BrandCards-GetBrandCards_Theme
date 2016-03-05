@@ -18,8 +18,8 @@ get_header(); ?>
 					<a href="#">Video</a>
 				</div>
 				<div class="text col span_16">
-					<h2>Your Brand Deserves Better</h2>
-					<p>You care about your brand, but managing all of the assets and people can be chaos. You end up trying to communicate by ridiculous files names and complicated shared folder systes. <strong></br>We think your brand deserves it...</strong></p>
+					<h2>Your Brand Deserves Better.</h2>
+					<p>You care about your brand, but managing assets and people can be chaos. You end up trying to communicate with ridiculous files names and complicated shared folder systems. <strong></br>We think your brand deserves more...</strong></p>
 					<a href="#" class="button">Create An Account</a>
 				</div>
 			</div>
@@ -28,7 +28,7 @@ get_header(); ?>
 		<div class="app_image">
 			<div class="app_image_wrapper container row">
 				<a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/app_image.png"></a>
-				<p>BrandCards is an online app that allows you to create beautiful brand guidelines, manage all of your brand assets, and empower your team of designers, employees, and vendors. There's a place for everythign: logos, colors, typography, images, graphics, videos...</p>
+				<p>BrandCards is an online app that allows you to create beautiful brand guidelines, manage all of your brand assets, and empower your team of designers, employees, and vendors. There's a place for everything: logos, colors, pallettes, typography, images, graphics, videos...</p>
 			</div>
 		</div>
 
@@ -77,8 +77,8 @@ get_header(); ?>
 			<div class="create_screens_wrapper container row">
 				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/create_image.png">
 				<div class="create_screens_text">
-					<h2>Your Brand is More Than a Logo</h2>
-					<p>A brand is more than just a logo. Colors, fonts, images, graphics, video—creating a great brand means paying attention to every detail. BrandCards makes it possible to share each and every decision.</p>
+					<h2>Your Brand is More Than a Logo.</h2>
+					<p>Colors, fonts, images, graphics, video—creating a great brand means paying attention to every detail. BrandCards makes it possible to share those decisions with simplicity and style. Goodbye, ibuprofen.</p>
 				</div>
 			</div>
 		</div>
@@ -86,7 +86,7 @@ get_header(); ?>
 		<div class="pricing" id="pricing">
 			<div class="pricing_wrapper container row">
 				<h3>Find a Plan That's Right for You and Your Brands</h3>
-				<p>All plans are billed montly and can be canceled at any time, no questions asked.</p>
+				<p>All plans are billed monthly and can be canceled at any time, no questions asked.</p>
 
 				<div class="row gutters">
 					<div class="pricing_item col span_8">
