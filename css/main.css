@@ -197,10 +197,13 @@
   background: white;
   border-bottom: 1px solid #D8D8D8;
   padding: 15px 0px; }
+  .header_menu .header_menu_wrapper {
+    padding: 0px; }
   .header_menu ul {
     margin: 0px;
     padding: 0px;
-    float: right; }
+    float: right;
+    padding-right: 5%; }
     .header_menu ul li {
       list-style: none;
       margin: 0px;
@@ -216,18 +219,58 @@
         .header_menu ul li a span {
           font-weight: 600;
           color: #7DCB9B; }
-  .header_menu .branding h1 {
-    text-indent: -9999999px;
-    line-height: 1px;
-    margin: 0px;
-    height: 23px;
-    width: 139px;
-    background-image: url("../images/logo.png"); }
+  .header_menu .branding {
+    padding-left: 5%; }
+    .header_menu .branding h1 {
+      text-indent: -9999999px;
+      line-height: 1px;
+      margin: 0px;
+      height: 23px;
+      width: 139px;
+      background-image: url("../images/logo.png"); }
 
 .is-sticky #sticky {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.11);
   z-index: 9999999 !important; }
 
+.mobile_toggle img {
+  width: 30px;
+  height: auto;
+  float: right;
+  opacity: .5;
+  display: none;
+  margin-right: 5%; }
+
+@media (max-width: 850px) {
+  .menu {
+    margin-top: -30px;
+    width: 100%; }
+
+  .desktop_menu {
+    display: none; }
+
+  .mobile_menu {
+    margin-top: 10px;
+    background: white;
+    display: none;
+    -webkit-box-shadow: 0px 10px 30px -10px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0px 10px 30px -10px rgba(0, 0, 0, 0.36);
+    box-shadow: 0px 10px 30px -10px rgba(0, 0, 0, 0.36); }
+
+  .mobile_toggle img {
+    display: block; }
+
+  .header_menu ul {
+    width: 100%; }
+    .header_menu ul li {
+      width: 100%;
+      display: block; }
+      .header_menu ul li a {
+        padding: 15px 0px 15px 20px;
+        border-top: 1px solid #F9F9F9;
+        width: 100%;
+        display: block;
+        text-align: center; } }
 .header {
   background: url("../images/desk_background.jpg") no-repeat center top;
   -webkit-background-size: cover;
@@ -243,12 +286,12 @@
       line-height: 0px;
       margin: 0px;
       font-size: 0px;
-      height: 252px;
-      width: 240px;
       display: block;
       float: right;
-      margin-right: 50px;
-      background-image: url("../images/play_logo.png"); }
+      margin-right: 50px; }
+      .header .header_wrapper .video a img {
+        display: block;
+        margin: 0 auto; }
     .header .header_wrapper h2 {
       font-size: 65px;
       line-height: 65px;
@@ -267,6 +310,45 @@
     .header .header_wrapper .button {
       width: 70%; }
 
+@media (max-width: 1220px) {
+  .header .header_wrapper {
+    width: 80%; }
+    .header .header_wrapper h2 {
+      font-size: 45px;
+      line-height: 45px; }
+    .header .header_wrapper p {
+      width: 100%; } }
+@media (max-width: 800px) {
+  .header .header_wrapper {
+    padding: 60px 0px 150px 0px; }
+    .header .header_wrapper .video a {
+      float: none;
+      margin: 0 auto;
+      margin-bottom: 40px; }
+    .header .header_wrapper h2 {
+      text-align: center; }
+    .header .header_wrapper p {
+      text-align: center; }
+    .header .header_wrapper .button {
+      width: 100%; } }
+@media (max-width: 400px) {
+  .header .header_wrapper {
+    padding: 30px 0px 150px 0px; }
+    .header .header_wrapper .video a {
+      float: none;
+      margin: 0 auto;
+      margin-bottom: 15px; }
+      .header .header_wrapper .video a img {
+        width: 55%;
+        height: auto; }
+    .header .header_wrapper h2 {
+      font-size: 20px;
+      line-height: 24px; }
+    .header .header_wrapper p {
+      font-size: 14px;
+      line-height: 22px; }
+    .header .header_wrapper .button {
+      width: 100%; } }
 .app_image {
   background: #F9F9F9;
   border-bottom: 1px solid #D8D8D8; }

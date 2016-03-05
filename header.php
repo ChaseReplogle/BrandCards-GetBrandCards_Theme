@@ -29,7 +29,18 @@
 			<a href="/"><h1>BrandCards</h1></a>
 		</div>
 		<div class="menu col span_20">
-			<ul>
+			<a href="#" class="mobile_toggle"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/mobile_menu_icon.png"></a>
+			<ul class="desktop_menu">
+				<li><a href="/">Home</a></li>
+				<li><a href="#demos">Demos</a></li>
+				<li><a href="#pricing">Pricing</a></li>
+				<li><a href="#">Learn</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="http://brandcardsapp.com/membership-account/membership-levels/" target="_Blank"><span>Create Account</span></a></li>
+				<li><a href="http://brandcardsapp.com">Login</a></li>
+			</ul>
+
+			<ul class="mobile_menu">
 				<li><a href="/">Home</a></li>
 				<li><a href="#demos">Demos</a></li>
 				<li><a href="#pricing">Pricing</a></li>

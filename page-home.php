@@ -15,11 +15,11 @@ get_header(); ?>
 		<div class="header">
 			<div class="header_wrapper container row">
 				<div class="video col span_8">
-					<a href="#">Video</a>
+					<a href="#">Video<img src="<?php bloginfo('stylesheet_directory'); ?>/images/play_logo.png"></a>
 				</div>
 				<div class="text col span_16">
 					<h2>Your Brand Deserves Better.</h2>
-					<p>You care about your brand, but managing assets and people can be chaos. You end up trying to communicate with ridiculous files names and complicated shared folder systems. <strong></br>We think your brand deserves more...</strong></p>
+					<p>You care about your brand, but managing assets and people can be chaos. You end up trying to communicate with ridiculous files names and complicated shared folder systems. <strong>We think your brand deserves more...</strong></p>
 					<a href="#" class="button">Create An Account</a>
 				</div>
 			</div>
