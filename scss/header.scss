@@ -41,9 +41,10 @@
 		padding-left: 5%;
 
 		h1 {
-			text-indent: -9999999px;
-			line-height: 1px;
+			font-size: 0px;
+			line-height: 0px;
 			margin: 0px;
+			display: block;
 			height: 23px;
 			width: 139px;
 			background-image: url('../images/logo.png');
@@ -84,6 +85,8 @@
 	.mobile_menu {
 		margin-top: 10px;
 		background: white;
+		z-index: 99999999999;
+		position: relative;
 		display: none;
 		z-index: 9999999999;
 		position: relative;
