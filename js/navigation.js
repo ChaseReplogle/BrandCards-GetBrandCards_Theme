@@ -13,4 +13,8 @@ jQuery(document).ready(function( $ ) {
     	$(".mobile_menu").toggle();
 	});
 
+	$(".mobile_menu li a").click(function(){
+    	$(".mobile_menu").hide();
+	});
+
 });
