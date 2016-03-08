@@ -73,7 +73,7 @@ get_header(); ?>
 
 						<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
-							<div class="col span_12">
+							<div class="col span_8">
 								<h2><?php the_title(); ?></h2>
 								<a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) { the_post_thumbnail(); }  ?></a>
 								<?php the_excerpt(); ?>

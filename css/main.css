@@ -714,7 +714,7 @@
   padding: 50px 0px 150px 0px; }
   .posts .col {
     margin-bottom: 50px; }
-  .posts .col:nth-child(5n+3) {
+  .posts .col:nth-child(5n+4) {
     margin-left: 0px; }
   .posts h2 {
     margin: 0px;
