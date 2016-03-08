@@ -157,3 +157,17 @@ require get_template_directory() . '/inc/jetpack.php';
 
 
 add_filter('show_admin_bar', '__return_false');
+
+
+
+
+function new_excerpt_more( $more ) {
+    return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
+function themeprefix_excerpt_read_more_link( $output ) {
+	global $post;
+	return $output . ' <a href="' . get_permalink( $post->ID ) . '" class="more-link" title="Read More">Read More</a>';
+}
+add_filter( 'the_excerpt', 'themeprefix_excerpt_read_more_link' );

@@ -304,7 +304,7 @@
     .header .header_wrapper p {
       width: 80%;
       font-size: 17px;
-      line-height: 28px;
+      line-height: 26px;
       color: #585858; }
       .header .header_wrapper p a {
         display: block;
@@ -635,6 +635,85 @@
     @media (max-width: 500px) {
       .footer p {
         font-size: 10px; } }
+
+.search {
+  padding: 60px 0px;
+  background: #F9F9F9;
+  border-bottom: 1px solid #e5e5e5; }
+  .search input#s {
+    width: 100%;
+    padding: 15px 2%; }
+    .search input#s::-webkit-input-placeholder {
+      font-weight: 200; }
+    .search input#s:-moz-placeholder {
+      /* Firefox 18- */
+      font-weight: 200; }
+    .search input#s::-moz-placeholder {
+      /* Firefox 19+ */
+      font-weight: 200; }
+    .search input#s:-ms-input-placeholder {
+      font-weight: 200; }
+  .search form#searchform {
+    position: relative; }
+  .search form#searchform input#searchsubmit {
+    background: url("../images/search_icon.png");
+    opacity: .5;
+    width: 35px;
+    height: 33px;
+    box-shadow: none;
+    border: 0px;
+    padding: 0px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* Hack for IE */
+    text-indent: -9999px;
+    font-size: 0px;
+    line-height: 0px; }
+    .search form#searchform input#searchsubmit:hover {
+      opacity: 1; }
+
+.categories {
+  padding: 80px 7%;
+  border-bottom: 1px solid #e5e5e5; }
+  .categories h2 {
+    font-size: 50px;
+    line-height: 50px;
+    margin: 0px; }
+  .categories .category_columns {
+    margin: 0px 0px 0px 50px;
+    padding: 0px; }
+    .categories .category_columns li {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      width: 50%;
+      float: left; }
+      .categories .category_columns li a {
+        padding: 7px 0px;
+        display: block;
+        text-align: left;
+        text-decoration: none;
+        color: #7DCB9B; }
+
+.guides {
+  padding: 60px 0px;
+  background: #F9F9F9;
+  border-bottom: 1px solid #e5e5e5; }
+
+.posts {
+  padding: 50px 0px; }
+  .posts h2 {
+    margin: 0px;
+    font-weight: 500;
+    margin-bottom: 20px; }
+  .posts h4 {
+    margin: 0px;
+    font-weight: 500; }
+  .posts p {
+    color: #939393; }
 
 body {
   font-family: 'Open Sans', sans-serif; }
