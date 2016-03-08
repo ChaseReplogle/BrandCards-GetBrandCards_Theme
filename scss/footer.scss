@@ -4,7 +4,7 @@
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	border-bottom: 1px solid black;
+  	border-bottom: 1px solid $darkestgray;
   	margin-top: -40px;
   	padding-top: 250px;
   	padding-bottom: 150px;
@@ -49,7 +49,7 @@
 
 .footer {
 	background: $darkestgray;
-	border-bottom: 20px solid $green;
+	padding-bottom: 10px;
 
 	.links {
 		padding: 0px;

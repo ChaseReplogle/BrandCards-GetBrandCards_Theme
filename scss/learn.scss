@@ -74,7 +74,7 @@
 			float: left;
 
 			a {
-				padding: 7px 0px;
+				padding: 6px 0px;
 				display: block;
 				text-align: left;
 				text-decoration: none;
@@ -133,7 +133,7 @@
 
 
 .single-learn-article {
-	padding: 40px 0px 150px 0px;
+	padding: 60px 0px 150px 0px;
 
 	.single-learn-article_wrapper {
 		width: 60%;
@@ -160,6 +160,16 @@
 				color: $gray;
 				text-decoration: none;
 			}
+		}
+
+		h4 {
+			font-size: 22px;
+			line-height: 32px;
+			font-weight: 400;
+		}
+
+		p {
+			color: $gray;
 		}
 	}
 }

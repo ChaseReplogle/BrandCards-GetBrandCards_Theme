@@ -547,7 +547,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #484848;
   margin-top: -40px;
   padding-top: 250px;
   padding-bottom: 150px; }
@@ -583,7 +583,7 @@
 
 .footer {
   background: #484848;
-  border-bottom: 20px solid #7DCB9B; }
+  padding-bottom: 10px; }
   .footer .links {
     padding: 0px;
     margin: 0 auto;
@@ -692,7 +692,7 @@
       width: 50%;
       float: left; }
       .categories .category_columns li a {
-        padding: 7px 0px;
+        padding: 6px 0px;
         display: block;
         text-align: left;
         text-decoration: none;
@@ -728,7 +728,7 @@
       color: #7DCB9B; }
 
 .single-learn-article {
-  padding: 40px 0px 150px 0px; }
+  padding: 60px 0px 150px 0px; }
   .single-learn-article .single-learn-article_wrapper {
     width: 60%; }
     .single-learn-article .single-learn-article_wrapper .wp-post-image {
@@ -746,6 +746,12 @@
       .single-learn-article .single-learn-article_wrapper .entry-meta a {
         color: #939393;
         text-decoration: none; }
+    .single-learn-article .single-learn-article_wrapper h4 {
+      font-size: 22px;
+      line-height: 32px;
+      font-weight: 400; }
+    .single-learn-article .single-learn-article_wrapper p {
+      color: #939393; }
 
 body {
   font-family: 'Open Sans', sans-serif; }
