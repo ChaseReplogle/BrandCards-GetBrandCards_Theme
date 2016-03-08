@@ -710,10 +710,14 @@
 
 .posts {
   padding: 50px 0px 150px 0px; }
+  .posts .col {
+    margin-bottom: 20px; }
+  .posts .col:nth-child(5n+3) {
+    margin-left: 0px; }
   .posts h2 {
     margin: 0px;
     font-weight: 500;
-    margin-bottom: 20px; }
+    margin-bottom: 15px; }
   .posts h4 {
     margin: 0px;
     font-weight: 500;
