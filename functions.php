@@ -168,6 +168,6 @@ add_filter('excerpt_more', 'new_excerpt_more');
 
 function themeprefix_excerpt_read_more_link( $output ) {
 	global $post;
-	return $output . ' <a href="' . get_permalink( $post->ID ) . '" class="more-link" title="Read More">Read More</a>';
+	return $output . ' <a href="' . get_permalink( $post->ID ) . '" class="more-link" title="Read More">Read More &#8594;</a>';
 }
 add_filter( 'the_excerpt', 'themeprefix_excerpt_read_more_link' );

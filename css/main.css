@@ -300,7 +300,7 @@
       line-height: 55px;
       margin: 0px 0px 15px 0px;
       text-transform: uppercase;
-      color: #585858; }
+      color: black; }
     .header .header_wrapper p {
       width: 80%;
       font-size: 17px;
@@ -702,18 +702,30 @@
   padding: 60px 0px;
   background: #F9F9F9;
   border-bottom: 1px solid #e5e5e5; }
+  .guides img {
+    border: 1px solid #e5e5e5;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1); }
+    .guides img:hover {
+      box-shadow: 0px; }
 
 .posts {
-  padding: 50px 0px; }
+  padding: 50px 0px 150px 0px; }
   .posts h2 {
     margin: 0px;
     font-weight: 500;
     margin-bottom: 20px; }
   .posts h4 {
     margin: 0px;
-    font-weight: 500; }
+    font-weight: 500;
+    font-size: 15px;
+    color: #939393; }
   .posts p {
     color: #939393; }
+  .posts a {
+    color: #7DCB9B;
+    text-decoration: none; }
+    .posts a:visited {
+      color: #7DCB9B; }
 
 body {
   font-family: 'Open Sans', sans-serif; }
