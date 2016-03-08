@@ -748,10 +748,14 @@
         text-decoration: none; }
     .single-learn-article .single-learn-article_wrapper h4 {
       font-size: 22px;
-      line-height: 32px;
-      font-weight: 400; }
+      line-height: 35px;
+      font-weight: 400;
+      color: #939393; }
     .single-learn-article .single-learn-article_wrapper p {
       color: #939393; }
+    .single-learn-article .single-learn-article_wrapper a {
+      color: #4D8364;
+      text-decoration: none; }
 
 body {
   font-family: 'Open Sans', sans-serif; }
