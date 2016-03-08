@@ -728,9 +728,14 @@
       color: #7DCB9B; }
 
 .single-learn-article {
-  padding: 60px 0px 150px 0px; }
+  padding: 20px 0px 150px 0px; }
   .single-learn-article .single-learn-article_wrapper {
     width: 60%; }
+    .single-learn-article .single-learn-article_wrapper .back_learn {
+      text-align: left;
+      display: block;
+      width: 100%;
+      margin-bottom: 40px; }
     .single-learn-article .single-learn-article_wrapper .wp-post-image {
       width: 100%;
       height: auto; }
@@ -754,7 +759,7 @@
     .single-learn-article .single-learn-article_wrapper p {
       color: #939393; }
     .single-learn-article .single-learn-article_wrapper a {
-      color: #4D8364;
+      color: #7DCB9B;
       text-decoration: none; }
 
 body {

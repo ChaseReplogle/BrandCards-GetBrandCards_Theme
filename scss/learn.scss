@@ -133,10 +133,17 @@
 
 
 .single-learn-article {
-	padding: 60px 0px 150px 0px;
+	padding: 20px 0px 150px 0px;
 
 	.single-learn-article_wrapper {
 		width: 60%;
+
+		.back_learn {
+			text-align: left;
+			display: block;
+			width: 100%;
+			margin-bottom: 40px;
+		}
 
 		.wp-post-image {
 			width: 100%;
@@ -174,7 +181,7 @@
 		}
 
 		a {
-			color: $darkgreen;
+			color: $green;
 			text-decoration: none;
 		}
 	}
