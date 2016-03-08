@@ -727,7 +727,8 @@
     color: #939393; }
   .posts p {
     color: #939393;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    font-size: 14px; }
   .posts a {
     color: #7DCB9B;
     text-decoration: none; }
