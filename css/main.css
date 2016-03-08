@@ -681,7 +681,9 @@
   .categories h2 {
     font-size: 50px;
     line-height: 50px;
-    margin: 0px; }
+    margin: 0px 0px 25px 0px; }
+  .categories p {
+    line-height: 26px; }
   .categories .category_columns {
     margin: 0px 0px 0px 50px;
     padding: 0px; }
@@ -724,7 +726,8 @@
     font-size: 15px;
     color: #939393; }
   .posts p {
-    color: #939393; }
+    color: #939393;
+    margin-bottom: 5px; }
   .posts a {
     color: #7DCB9B;
     text-decoration: none; }
