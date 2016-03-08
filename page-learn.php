@@ -33,7 +33,7 @@ get_header(); ?>
 				</div>
 				<div class="col span_10">
 					<ul class="category_columns">
-						<?php wp_list_categories('exclude=1&hide_empty=0&title_li='); ?>
+						<?php wp_list_categories('exclude=1&hide_empty=0&order=DESC&title_li='); ?>
 					</ul>
 				</div>
 			</div>

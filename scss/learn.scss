@@ -129,3 +129,37 @@
 		}
 	}
 }
+
+
+
+.single-learn-article {
+	padding: 40px 0px 150px 0px;
+
+	.single-learn-article_wrapper {
+		width: 60%;
+
+		.wp-post-image {
+			width: 100%;
+			height: auto;
+		}
+
+		.entry-title {
+			font-weight: 600;
+			margin-bottom: 40px;
+			margin-top: 0px;
+
+			text-align: center;
+		}
+
+		.entry-meta {
+			color: $gray;
+			margin-bottom: 0px;
+			text-align: center;
+
+			a {
+				color: $gray;
+				text-decoration: none;
+			}
+		}
+	}
+}

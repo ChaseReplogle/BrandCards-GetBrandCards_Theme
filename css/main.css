@@ -727,6 +727,26 @@
     .posts a:visited {
       color: #7DCB9B; }
 
+.single-learn-article {
+  padding: 40px 0px 150px 0px; }
+  .single-learn-article .single-learn-article_wrapper {
+    width: 60%; }
+    .single-learn-article .single-learn-article_wrapper .wp-post-image {
+      width: 100%;
+      height: auto; }
+    .single-learn-article .single-learn-article_wrapper .entry-title {
+      font-weight: 600;
+      margin-bottom: 40px;
+      margin-top: 0px;
+      text-align: center; }
+    .single-learn-article .single-learn-article_wrapper .entry-meta {
+      color: #939393;
+      margin-bottom: 0px;
+      text-align: center; }
+      .single-learn-article .single-learn-article_wrapper .entry-meta a {
+        color: #939393;
+        text-decoration: none; }
+
 body {
   font-family: 'Open Sans', sans-serif; }
 
