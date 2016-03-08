@@ -19,7 +19,15 @@ get_header(); ?>
 			<div class="single-learn-article">
 						<div class="single-learn-article_wrapper container row">
 							<div class="entry-content">
-								<?php the_content(); ?>
+
+								<?php
+								if ( have_posts() ) :
+									while ( have_posts() ) : the_post(); ?>
+
+										<?php the_content(); ?>
+
+								<?php endwhile; ?>
+
 							</div>
 						</div>
 					</div>
