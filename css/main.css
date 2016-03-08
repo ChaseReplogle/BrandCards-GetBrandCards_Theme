@@ -541,6 +541,12 @@
     .pricing .pricing_item a {
       margin-top: 40px; }
 
+.gform_button {
+  background: #7DCB9B;
+  padding: 30px;
+  border: #4D8364;
+  box-shadow: none; }
+
 .phone {
   background: url("../images/phone.png") no-repeat center top;
   -webkit-background-size: cover;
