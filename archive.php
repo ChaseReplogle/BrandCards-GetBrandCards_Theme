@@ -22,10 +22,9 @@ get_header(); ?>
 			<div class="back_learn container row">
 				<a href="/learn">&#8592; Back</a>
 			</div>
-			<div class="container row gutters">
+			<div class="container row gutters post_list_column">
 				<div class="col span_8">
 					<h2>List of Posts</h2>
-					<hr>
 					<ul class="post_list">
 					<?php
 						if ( have_posts() ) : ?>

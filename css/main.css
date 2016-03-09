@@ -812,13 +812,28 @@
       font-size: 14px;
       text-decoration: none; }
 
+.post_list_column h2 {
+  font-size: 20px;
+  border-bottom: 1px solid #D8D8D8;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  display: block;
+  width: 85%; }
+
 .post_list {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  width: 85%; }
   .post_list li {
     margin: 0px;
     padding: 0px;
     list-style: none; }
+    .post_list li a {
+      color: #939393;
+      padding: 4px 0px;
+      display: block; }
+      .post_list li a:visited {
+        color: #939393; }
 
 .archive .posts {
   padding-top: 30px; }
