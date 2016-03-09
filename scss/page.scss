@@ -266,7 +266,7 @@
 }
 
 
-.gform_button {
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=image], .gform_wrapper .gform_footer input[type=submit] {
 	background: $green;
 	padding: 30px;
 	border: $darkgreen;

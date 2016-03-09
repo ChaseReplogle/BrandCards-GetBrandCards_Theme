@@ -552,7 +552,7 @@
     .pricing .pricing_item a {
       margin-top: 40px; }
 
-.gform_button {
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=image], .gform_wrapper .gform_footer input[type=submit] {
   background: #7DCB9B;
   padding: 30px;
   border: #4D8364;
