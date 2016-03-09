@@ -816,8 +816,11 @@
     .single-learn-article .single-learn-article_wrapper p {
       color: #939393; }
     .single-learn-article .single-learn-article_wrapper ul {
-      margin: 0px;
+      margin: 0px 0px 0px 20px;
       padding: 0px; }
+      .single-learn-article .single-learn-article_wrapper ul li {
+        margin-bottom: 10px;
+        color: #939393; }
     .single-learn-article .single-learn-article_wrapper a {
       color: #7DCB9B;
       font-size: 14px;
