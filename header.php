@@ -31,21 +31,21 @@
 		<div class="menu col span_20">
 			<a href="#" class="mobile_toggle"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/mobile_menu_icon.png"></a>
 			<ul class="desktop_menu">
-				<li><a href="getbrandcards.com/">Home</a></li>
-				<li><a href="getbrandcards.com/#demos">Demos</a></li>
-				<li><a href="getbrandcards.com/#pricing">Pricing</a></li>
-				<li><a href="#">Learn</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="http://getbrandcards.com/">Home</a></li>
+				<li><a href="http://getbrandcards.com/#demos">Demos</a></li>
+				<li><a href="http://getbrandcards.com/#pricing">Pricing</a></li>
+				<li><a href="/learn">Learn</a></li>
+				<li><a href="/contact">Contact</a></li>
 				<li><a href="http://brandcardsapp.com/membership-account/membership-levels/" target="_Blank"><span>Create Account</span></a></li>
 				<li><a href="http://brandcardsapp.com">Login</a></li>
 			</ul>
 
 			<ul class="mobile_menu">
-				<li><a href="getbrandcards.com/">Home</a></li>
-				<li><a href="getbrandcards.com/#demos">Demos</a></li>
-				<li><a href="getbrandcards.com/#pricing">Pricing</a></li>
-				<li><a href="#">Learn</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="http://getbrandcards.com/">Home</a></li>
+				<li><a href="http://getbrandcards.com/#demos">Demos</a></li>
+				<li><a href="http://getbrandcards.com/#pricing">Pricing</a></li>
+				<li><a href="/learn">Learn</a></li>
+				<li><a href="/contact">Contact</a></li>
 				<li><a href="http://brandcardsapp.com/membership-account/membership-levels/" target="_Blank"><span>Create Account</span></a></li>
 				<li><a href="http://brandcardsapp.com">Login</a></li>
 			</ul>
