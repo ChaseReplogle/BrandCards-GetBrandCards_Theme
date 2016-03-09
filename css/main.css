@@ -352,6 +352,31 @@
       line-height: 22px; }
     .header .header_wrapper .button {
       width: 100%; } }
+.archive_header {
+  background: #F9F9F9;
+  border-bottom: 1px solid #D8D8D8;
+  padding: 30px 0px;
+  text-align: center; }
+  .archive_header h3 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #939393;
+    margin: 0px; }
+
+.archive .posts {
+  padding-top: 0px; }
+
+.archive .back_learn a {
+  color: #7DCB9B;
+  margin: 0px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block; }
+  .archive .back_learn a:visited {
+    color: #7DCB9B; }
+
 .app_image {
   background: #F9F9F9;
   border-bottom: 1px solid #D8D8D8; }
@@ -737,7 +762,8 @@
     font-size: 14px; }
   .posts a {
     color: #7DCB9B;
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 14px; }
     .posts a:visited {
       color: #7DCB9B; }
 
@@ -758,6 +784,7 @@
       font-weight: 600;
       margin-bottom: 40px;
       margin-top: 0px;
+      color: #7DCB9B;
       text-align: center; }
     .single-learn-article .single-learn-article_wrapper .entry-meta {
       color: #939393;
@@ -775,6 +802,7 @@
       color: #939393; }
     .single-learn-article .single-learn-article_wrapper a {
       color: #7DCB9B;
+      font-size: 14px;
       text-decoration: none; }
 
 body {

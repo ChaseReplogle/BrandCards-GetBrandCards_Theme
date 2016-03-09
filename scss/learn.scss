@@ -137,6 +137,7 @@
 	a {
 		color: $green;
 		text-decoration: none;
+		font-size: 14px;
 
 		&:visited {
 			color: $green;
@@ -169,6 +170,7 @@
 			font-weight: 600;
 			margin-bottom: 40px;
 			margin-top: 0px;
+			color: $green;
 
 			text-align: center;
 		}
@@ -197,6 +199,7 @@
 
 		a {
 			color: $green;
+			font-size: 14px;
 			text-decoration: none;
 		}
 	}
