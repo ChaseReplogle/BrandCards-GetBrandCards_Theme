@@ -817,6 +817,9 @@
       color: #7DCB9B;
       font-size: 14px;
       text-decoration: none; }
+  @media (max-width: 7750px) {
+    .single-learn-article {
+      width: 90%; } }
 
 .post_list_column h2.post_list_header {
   font-size: 20px;
