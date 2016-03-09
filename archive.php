@@ -49,8 +49,9 @@ get_header(); ?>
 			while ( have_posts() ) : the_post(); ?>
 
 				<div class="col span_12">
-					<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
+
 					<a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) { the_post_thumbnail(); }  ?></a>
+					<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
 					<?php the_excerpt(); ?>
 				</div>
 

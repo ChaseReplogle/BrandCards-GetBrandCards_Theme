@@ -252,6 +252,29 @@
 .archive {
 		.posts {
 			padding-top: 30px;
+
+			.col:nth-child(5n+2) {
+				&::after {
+					content: '.';
+					color: white;
+					line-height: 0px;
+					font-size: 0px;
+					display: block;
+					width: 100%;
+					clear: both;
+				}
+			}
+
+			.col:nth-child(5n+3) {
+				margin-left: 0%;
+				width: 49%;
+
+			}
+
+			.col:nth-child(5n+4) {
+				margin-left: 2%;
+				width: 48%;
+			}
 		}
 	}
 
