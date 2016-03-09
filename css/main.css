@@ -761,10 +761,16 @@
     margin-bottom: 5px;
     font-size: 14px; }
   .posts a {
+    text-decoration: none;
+    color: #939393;
+    line-height: 32px; }
+    .posts avisited {
+      color: #939393; }
+  .posts a.more-link {
     color: #7DCB9B;
     text-decoration: none;
     font-size: 14px; }
-    .posts a:visited {
+    .posts a.more-link:visited {
       color: #7DCB9B; }
 
 .single-learn-article {
@@ -781,10 +787,10 @@
       width: 100%;
       height: auto; }
     .single-learn-article .single-learn-article_wrapper .entry-title {
-      font-weight: 600;
+      font-weight: 400;
       margin-bottom: 40px;
       margin-top: 0px;
-      color: #7DCB9B;
+      color: #7a7a7a;
       text-align: center; }
     .single-learn-article .single-learn-article_wrapper .entry-meta {
       color: #939393;

@@ -135,6 +135,16 @@
 	}
 
 	a {
+		text-decoration: none;
+		color: $gray;
+		line-height: 32px;
+
+		&visited {
+			color: $gray;
+		}
+	}
+
+	a.more-link {
 		color: $green;
 		text-decoration: none;
 		font-size: 14px;
@@ -167,10 +177,10 @@
 		}
 
 		.entry-title {
-			font-weight: 600;
+			font-weight: 400;
 			margin-bottom: 40px;
 			margin-top: 0px;
-			color: $green;
+			color: darken($gray, 10%);
 
 			text-align: center;
 		}
