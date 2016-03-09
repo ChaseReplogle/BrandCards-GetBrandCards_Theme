@@ -43,17 +43,17 @@ get_header(); ?>
 			<div class="container row gutters">
 				<div class="col span_6 ">
 					<a href="#">
-						<img src="http://getbrandcards.dev/wp-content/uploads/2016/03/File-Guide-1.jpg">
+						<img src="http://getbrandcards.com/wp-content/uploads/2016/03/File-Guide.jpg">
 					</a>
 				</div>
 				<div class="col span_6">
-					<img src="http://getbrandcards.dev/wp-content/uploads/2016/03/color-1.jpg">
+					<img src="http://getbrandcards.com/wp-content/uploads/2016/03/color-1.jpg">
 				</div>
 				<div class="col span_6">
-					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/guide.png">
+					<img src="http://getbrandcards.com/wp-content/uploads/2016/03/type.jpg">
 				</div>
 				<div class="col span_6">
-					<img src="<?php bloginfo('stylesheet_directory'); ?>/images/guide.png">
+					<img src="http://getbrandcards.com/wp-content/uploads/2016/03/logo.jpg">
 				</div>
 			</div>
 		</div>
