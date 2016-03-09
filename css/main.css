@@ -748,6 +748,8 @@
     margin-bottom: 50px; }
   .posts .col:nth-child(5n+4) {
     margin-left: 0px; }
+  .posts img {
+    border: 1px solid #D8D8D8; }
   .posts h2 {
     margin: 0px;
     font-weight: 500;
