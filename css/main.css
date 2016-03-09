@@ -787,7 +787,8 @@
       margin-bottom: 40px; }
     .single-learn-article .single-learn-article_wrapper .wp-post-image {
       width: 100%;
-      height: auto; }
+      height: auto;
+      border: 1px solid #D8D8D8; }
     .single-learn-article .single-learn-article_wrapper .entry-title {
       font-weight: 400;
       margin-bottom: 40px;
