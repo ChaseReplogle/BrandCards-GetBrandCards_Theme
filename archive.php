@@ -23,7 +23,23 @@ get_header(); ?>
 				<a href="/learn">&#8592; Back</a>
 			</div>
 			<div class="container row gutters">
+				<div class="col span_8">
+					<h2>List of Posts</h2>
+					<hr>
+					<ul class="post_list">
+					<?php
+						if ( have_posts() ) : ?>
 
+							<?php
+							/* Start the Loop */
+							while ( have_posts() ) : the_post(); ?>
+
+								<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+
+							<?php endwhile; endif; ?>
+					</ul>
+				</div>
+				<div class="col span_16">
 
 		<?php
 		if ( have_posts() ) : ?>
@@ -32,7 +48,7 @@ get_header(); ?>
 			/* Start the Loop */
 			while ( have_posts() ) : the_post(); ?>
 
-				<div class="col span_8">
+				<div class="col span_12">
 					<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
 					<a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) { the_post_thumbnail(); }  ?></a>
 					<?php the_excerpt(); ?>
@@ -46,7 +62,7 @@ get_header(); ?>
 			get_template_part( 'template-parts/content', 'none' );
 
 		endif; ?>
-
+			</div>
 			</div>
 			</div>
 

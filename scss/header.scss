@@ -266,22 +266,3 @@
 	}
 }
 
-	.archive {
-		.posts {
-			padding-top: 0px;
-		}
-	}
-
-	.archive .back_learn a {
-		color: $green;
-		margin: 0px;
-		text-decoration: none;
-		font-size: 14px;
-		margin-top: 15px;
-		margin-bottom: 15px;
-		display: block;
-
-		&:visited {
-			color: $green;
-		}
-	}

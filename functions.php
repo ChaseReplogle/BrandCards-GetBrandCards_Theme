@@ -162,13 +162,9 @@ add_filter('show_admin_bar', '__return_false');
 
 
 function new_excerpt_more( $more ) {
-    return '...';
+    return '... <a href="' . get_permalink( $post->ID ) . '" class="more-link" title="Read More">Read</a>';
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 
-function themeprefix_excerpt_read_more_link( $output ) {
-	global $post;
-	return $output . ' <a href="' . get_permalink( $post->ID ) . '" class="more-link" title="Read More">Read More &#8594;</a>';
-}
-add_filter( 'the_excerpt', 'themeprefix_excerpt_read_more_link' );
+
 add_filter('excerpt_length', create_function('$a', 'return 20;'));

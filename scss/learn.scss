@@ -168,7 +168,7 @@
 	a.more-link {
 		color: $green;
 		text-decoration: none;
-		font-size: 14px;
+		line-height: inherit;
 
 		&:visited {
 			color: $green;
@@ -235,3 +235,36 @@
 		}
 	}
 }
+
+
+.post_list {
+	margin: 0px;
+	padding: 0px;
+
+	li {
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+	}
+}
+
+
+.archive {
+		.posts {
+			padding-top: 30px;
+		}
+	}
+
+	.archive .back_learn a {
+		color: $green;
+		margin: 0px;
+		text-decoration: none;
+		font-size: 14px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		display: block;
+
+		&:visited {
+			color: $green;
+		}
+	}

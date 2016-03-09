@@ -363,20 +363,6 @@
     color: #939393;
     margin: 0px; }
 
-.archive .posts {
-  padding-top: 0px; }
-
-.archive .back_learn a {
-  color: #7DCB9B;
-  margin: 0px;
-  text-decoration: none;
-  font-size: 14px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  display: block; }
-  .archive .back_learn a:visited {
-    color: #7DCB9B; }
-
 .app_image {
   background: #F9F9F9;
   border-bottom: 1px solid #D8D8D8; }
@@ -784,7 +770,7 @@
   .posts a.more-link {
     color: #7DCB9B;
     text-decoration: none;
-    font-size: 14px; }
+    line-height: inherit; }
     .posts a.more-link:visited {
       color: #7DCB9B; }
 
@@ -825,6 +811,28 @@
       color: #7DCB9B;
       font-size: 14px;
       text-decoration: none; }
+
+.post_list {
+  margin: 0px;
+  padding: 0px; }
+  .post_list li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none; }
+
+.archive .posts {
+  padding-top: 30px; }
+
+.archive .back_learn a {
+  color: #7DCB9B;
+  margin: 0px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block; }
+  .archive .back_learn a:visited {
+    color: #7DCB9B; }
 
 body {
   font-family: 'Open Sans', sans-serif; }
