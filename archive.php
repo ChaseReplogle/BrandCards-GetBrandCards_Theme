@@ -24,7 +24,7 @@ get_header(); ?>
 			</div>
 			<div class="container row gutters post_list_column">
 				<div class="col span_8">
-					<h2>List of Posts</h2>
+					<h2 class="post_list_header">List of Posts</h2>
 					<ul class="post_list">
 					<?php
 						if ( have_posts() ) : ?>

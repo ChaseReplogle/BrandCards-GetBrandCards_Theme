@@ -751,7 +751,7 @@
   .posts h2 {
     margin: 0px;
     font-weight: 500;
-    margin-bottom: 15px; }
+    margin-bottom: 0px; }
   .posts h4 {
     margin: 0px;
     font-weight: 500;
@@ -760,12 +760,13 @@
   .posts p {
     color: #939393;
     margin-bottom: 5px;
+    margin-top: 6px;
     font-size: 14px; }
   .posts a {
     text-decoration: none;
     color: #939393;
     line-height: 32px; }
-    .posts avisited {
+    .posts a:visited {
       color: #939393; }
   .posts a.more-link {
     color: #7DCB9B;
@@ -812,7 +813,7 @@
       font-size: 14px;
       text-decoration: none; }
 
-.post_list_column h2 {
+.post_list_column h2.post_list_header {
   font-size: 20px;
   border-bottom: 1px solid #D8D8D8;
   padding-bottom: 15px;

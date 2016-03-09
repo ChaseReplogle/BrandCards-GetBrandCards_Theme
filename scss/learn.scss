@@ -139,7 +139,7 @@
 	h2 {
 		margin: 0px;
 		font-weight: 500;
-		margin-bottom: 15px;
+		margin-bottom: 0px;
 	}
 
 	h4 {
@@ -152,6 +152,7 @@
 	p {
 		color: $gray;
 		margin-bottom: 5px;
+		margin-top: 6px;
 		font-size: 14px;
 	}
 
@@ -160,7 +161,7 @@
 		color: $gray;
 		line-height: 32px;
 
-		&visited {
+		&:visited {
 			color: $gray;
 		}
 	}
@@ -236,9 +237,8 @@
 	}
 }
 
-.post_list_column {
 
-	h2 {
+	.post_list_column h2.post_list_header {
 		font-size: 20px;
 		border-bottom: 1px solid $lightgray;
 		padding-bottom: 15px;
@@ -246,8 +246,6 @@
 		display: block;
 		width: 85%;
 	}
-
-}
 
 .post_list {
 	margin: 0px;
