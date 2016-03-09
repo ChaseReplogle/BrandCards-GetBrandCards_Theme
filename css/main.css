@@ -707,13 +707,16 @@
       opacity: 1; }
 
 .categories {
-  padding: 80px 7%;
+  padding: 50px 7% 70px 7%;
   border-bottom: 1px solid #e5e5e5; }
+  .categories h1 {
+    margin-top: 0px; }
   .categories h2 {
-    font-size: 35px;
-    line-height: 45px;
-    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 400;
     margin: 0px 30px 5px 0px;
+    color: #939393;
     display: block; }
   .categories .citation {
     margin: 0px;
@@ -723,7 +726,7 @@
   .categories p {
     line-height: 26px; }
   .categories .category_columns {
-    margin: 0px 0px 0px 0px;
+    margin: 65px 0px 0px 0px;
     padding: 0px; }
     .categories .category_columns h3 {
       margin: 0 0 20px 85px;
