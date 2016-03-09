@@ -815,6 +815,9 @@
       color: #939393; }
     .single-learn-article .single-learn-article_wrapper p {
       color: #939393; }
+    .single-learn-article .single-learn-article_wrapper ul {
+      margin: 0px;
+      padding: 0px; }
     .single-learn-article .single-learn-article_wrapper a {
       color: #7DCB9B;
       font-size: 14px;
