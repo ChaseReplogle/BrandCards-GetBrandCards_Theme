@@ -831,7 +831,8 @@
     .single-learn-article .single-learn-article_wrapper .cat-links {
       border-top: 1px solid #D8D8D8;
       margin-top: 60px;
-      padding-top: 30px; }
+      padding-top: 30px;
+      display: block; }
 
 .post_list_column h2.post_list_header {
   font-size: 20px;
