@@ -303,15 +303,11 @@
 		.posts {
 			padding-top: 30px;
 
-			.col:nth-child(5n+2) {
-				&::after {
-					content: '.';
-					color: white;
-					line-height: 0px;
-					font-size: 0px;
+			.col:nth-child(3n+3) {
+				&:after {
+					content: 'Test';
 					display: block;
-					width: 100%;
-					clear: both;
+
 				}
 			}
 
