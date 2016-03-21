@@ -39,25 +39,30 @@ get_header(); ?>
 					</ul>
 				</div>
 				<div class="col span_16">
+				<div class="row">
 
 		<?php
 		if ( have_posts() ) : ?>
+		<?php $i = 0; ?>
 
 			<?php
 			/* Start the Loop */
-			while ( have_posts() ) : the_post(); ?>
+			while ( have_posts() ) : the_post();
+			if($i % 2 == 0) {echo '</div><div class="row">';} ?>
 
 				<div class="col span_12">
+
 
 					<a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) { the_post_thumbnail(); }  ?></a>
 					<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
 					<?php the_excerpt(); ?>
 				</div>
 
-			<?php endwhile;
+			<?php $i++; endwhile; ?>
 
+		</div>
 
-		else :
+		<?php else :
 
 			get_template_part( 'template-parts/content', 'none' );
 
