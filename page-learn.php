@@ -31,7 +31,7 @@ get_header(); ?>
 					<h1>Branding Resources</h1>
 					<h2>A brand for a company is like a reputation for a person. You earn reputation by trying to do hard things well.</h2>
 					<p class="citation">Jeff Bezos</p>
-					<p>Building a brand is hard work. It takes perseverence, focus, and determination. Having the right logo isn't enough. There's a lot more to learn and the challenges never stop evolving. <strong>Let's keep learning together.</strong></p>
+					<p>Building a brand is hard work. It takes perseverence, focus, and determination. Having the right logo just isn't enough. There's a lot more to learn and the challenges never stop evolving. <strong>Let's keep learning together.</strong></p>
 				</div>
 				<div class="col span_10 category_columns">
 					<h3>Categories</h3>

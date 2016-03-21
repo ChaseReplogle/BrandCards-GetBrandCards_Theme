@@ -363,6 +363,9 @@
     color: #939393;
     margin: 0px; }
 
+ul li a.current_hash {
+  color: red; }
+
 .app_image {
   background: #F9F9F9;
   border-bottom: 1px solid #D8D8D8; }
