@@ -279,3 +279,8 @@
 .post_format-post-format-video .attachment-post-thumbnail {
 	display: none;
 }
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
