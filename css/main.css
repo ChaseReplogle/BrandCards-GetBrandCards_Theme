@@ -563,6 +563,9 @@ ul li a.current_hash {
   color: white;
   text-shadow: 0px; }
 
+.post_format-post-format-video .attachment-post-thumbnail {
+  display: none; }
+
 .phone {
   background: url("../images/phone.png") no-repeat center top;
   -webkit-background-size: cover;
