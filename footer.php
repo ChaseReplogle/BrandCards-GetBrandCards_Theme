@@ -15,10 +15,10 @@
 <div class="footer">
 	<div class="footer_wrapper">
 		<ul class="social">
-			<li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon_fb.png"></a></li>
-			<li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon_twitter.png"></a></li>
-			<li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon_instagram.png"></a></li>
-			<li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon_dribbble.png"></a></li>
+			<li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon_fb.png"alt="Facebook"></a></li>
+			<li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon_twitter.png" alt="Twitter"></a></li>
+			<li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon_instagram.png" alt="Instagram"></a></li>
+			<li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon_dribbble.png" alt="Dribbble"></a></li>
 			<li><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/icon_youtube.png"></a></li>
 		</ul>
 		<ul class="links">
@@ -38,5 +38,6 @@
     $("#sticky").sticky({topSpacing:0});
   });
 </script>
+
 </body>
 </html>

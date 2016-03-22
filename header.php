@@ -17,7 +17,20 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,600' rel='stylesheet' type='text/css'>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
 
+fbq('init', '1014859888579690');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1014859888579690&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 <?php wp_head(); ?>
 </head>
 
@@ -29,7 +42,7 @@
 			<a href="/"><h1>BrandCards</h1></a>
 		</div>
 		<div class="menu col span_20">
-			<a href="#" class="mobile_toggle"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/mobile_menu_icon.png"></a>
+			<a href="#" class="mobile_toggle"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/mobile_menu_icon.png" alt="Mobile Icon"></a>
 			<ul class="desktop_menu">
 				<li><a href="http://getbrandcards.com/">Home</a></li>
 				<li><a href="http://getbrandcards.com/#demos">Demos</a></li>

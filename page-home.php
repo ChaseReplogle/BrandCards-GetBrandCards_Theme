@@ -15,7 +15,7 @@ get_header(); ?>
 		<div class="header">
 			<div class="header_wrapper container row">
 				<div class="video col span_8">
-					<a href="#">Video<img src="<?php bloginfo('stylesheet_directory'); ?>/images/play_logo.png"></a>
+					<a href="#">Video<img src="<?php bloginfo('stylesheet_directory'); ?>/images/play_logo.png" alt="BrandCards"></a>
 				</div>
 				<div class="text col span_16">
 					<h2>Your Brand Deserves Better.</h2>
@@ -27,7 +27,7 @@ get_header(); ?>
 
 		<div class="app_image">
 			<div class="app_image_wrapper container row">
-				<a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/app_image.png"></a>
+				<a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/app_image.png" alt="BrandCards Interface"></a>
 				<p>BrandCards is an online app that allows you to create beautiful brand guidelines, manage all of your brand assets, and empower your team of designers, employees, and vendors. There's a place for everything: logos, colors, pallettes, typography, images, graphics, videos...</p>
 			</div>
 		</div>
@@ -37,7 +37,7 @@ get_header(); ?>
 				<div class="col span_12">
 					<div class="individual_brand">
 						<a href="http://hunterts.brandcardsapp.com/" target="_blank" class="individual_brand_link">View the Hunter T-Shirt's Brand</a>
-						<a href="http://hunterts.brandcardsapp.com/" target="_blank" ><img src="<?php bloginfo('stylesheet_directory'); ?>/images/brand_item.png"></a>
+						<a href="http://hunterts.brandcardsapp.com/" target="_blank" ><img src="<?php bloginfo('stylesheet_directory'); ?>/images/brand_item.png" alt="Hunter Ts"></a>
 					</div>
 				</div>
 				<div class="col span_12 quote">
@@ -51,21 +51,21 @@ get_header(); ?>
 			<div class="demos_wrapper container row gutters">
 				<div class="col span_8">
 					<a href="http://eathealthy.brandcardsapp.com/" target="_Blank">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/cover_healthy.jpg">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/cover_healthy.jpg" alt="Eat Healthy">
 						<h3>Eat Healthy App</h3>
 						<p>Brand Guide and Design Resources</p>
 					</a>
 				</div>
 				<div class="col span_8">
 					<a href="http://goodwater.brandcardsapp.com/" target="_Blank">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/cover_water.jpg">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/cover_water.jpg" alt="Good Water">
 						<h3>Good Water</h3>
 						<p>Charity Communciations Standards</p>
 					</a>
 				</div>
 				<div class="col span_8">
 					<a href="http://chaserealtor.brandcardsapp.com/" target="_Blank">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/cover_realator.jpg">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/images/cover_realator.jpg" alt="Chase Realtor">
 						<h3>Chase Realator Group</h3>
 						<p>Style Guide and Agent Resources</p>
 					</a>
@@ -75,7 +75,7 @@ get_header(); ?>
 
 		<div class="create_screens">
 			<div class="create_screens_wrapper container row">
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/create_image.png">
+				<img src="<?php bloginfo('stylesheet_directory'); ?>/images/create_image.png" alt="BrandCards Creating Interface">
 				<div class="create_screens_text">
 					<h2>Your Brand is More Than a Logo.</h2>
 					<p>Colors, fonts, images, graphics, video—creating a great brand means paying attention to every detail. BrandCards makes it possible to share those decisions with simplicity and style. Goodbye, ibuprofen.</p>
