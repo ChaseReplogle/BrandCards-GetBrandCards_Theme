@@ -283,3 +283,27 @@
 video, iframe {
   width: 100%    !important;
 }
+
+
+
+.home .posts {
+	border-top: 1px solid $lightgray;
+
+	.posts_header {
+
+		h3 {
+			color: $green;
+			font-weight: normal;
+			text-align: center;
+			font-size: 30px;
+			margin-bottom: 0px;
+		}
+
+		p {
+			text-align: center;
+			margin-bottom: 40px;
+			font-size: 16px;
+			margin-top: 0px;
+		}
+	}
+}

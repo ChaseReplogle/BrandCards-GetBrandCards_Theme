@@ -566,6 +566,20 @@
 video, iframe {
   width: 100%    !important; }
 
+.home .posts {
+  border-top: 1px solid #D8D8D8; }
+  .home .posts .posts_header h3 {
+    color: #7DCB9B;
+    font-weight: normal;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 0px; }
+  .home .posts .posts_header p {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 16px;
+    margin-top: 0px; }
+
 .phone {
   background: url("../images/phone.png") no-repeat center top;
   -webkit-background-size: cover;
@@ -907,3 +921,7 @@ a:visited {
     color: white; }
   .button:visited {
     color: white; }
+
+.button.secondary {
+  background: #F9F9F9;
+  border: 1px solid #D8D8D8; }

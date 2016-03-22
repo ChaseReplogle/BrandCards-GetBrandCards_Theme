@@ -35,3 +35,8 @@ a:visited {
 		color: white;
 	}
 }
+
+.button.secondary {
+	background: $lightestgray;
+	border: 1px solid $lightgray;
+}

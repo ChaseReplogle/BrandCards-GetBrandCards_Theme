@@ -116,7 +116,7 @@ add_action( 'widgets_init', 'get_brandcards_widgets_init' );
 function get_brandcards_scripts() {
 	wp_enqueue_script('jquery');
 	wp_enqueue_style( 'get_brandcards-style', get_stylesheet_uri() );
-	wp_enqueue_style( 'get_brandcards-main-style', get_template_directory_uri() . '/css/main.css');
+	wp_enqueue_style( 'get_brandcards-main-style', get_template_directory_uri() . '/css/main.css?v1');
 
 	wp_enqueue_script( 'get_brandcards-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 

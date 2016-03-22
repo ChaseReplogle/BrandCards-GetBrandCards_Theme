@@ -132,6 +132,47 @@ get_header(); ?>
 			</div>
 		</div>
 
+		<div class="posts">
+			<div class="container row gutters">
+					<div class="row posts_header">
+						<h3>Brand Resouces</h3>
+						<p>Never stop learning. Branding is a constantly evolving art.</p>
+					</div>
+					<div class="row">
+						<?php
+
+						$args = array(
+							'post_type' => 'post',
+							'posts_per_page' => 3
+						);
+
+						$the_query = new WP_Query( $args ); ?>
+						<?php $i = 0; ?>
+
+						<?php if ( $the_query->have_posts() ) : ?>
+
+
+							<?php while ( $the_query->have_posts() ) : $the_query->the_post();
+							if($i % 3 == 0) {echo '</div><div class="row">';} ?>
+
+								<div class="col span_8">
+									<a href="<?php the_permalink(); ?>"><?php if ( has_post_thumbnail() ) { the_post_thumbnail(); }  ?></a>
+									<a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
+									<?php the_excerpt(); ?>
+								</div>
+							<?php $i++;  endwhile; ?>
+							</div>
+
+							<?php wp_reset_postdata(); ?>
+
+						<?php else : ?>
+							<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+						<?php endif; ?>
+
+				<a href="/learn" class="button secondary">View More Resources</a>
+			</div>
+		</div>
+
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
