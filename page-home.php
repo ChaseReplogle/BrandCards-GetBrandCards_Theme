@@ -91,6 +91,7 @@ get_header(); ?>
 				<div class="row gutters">
 					<div class="pricing_item col span_8">
 						<h2>Brand</h2>
+						<h5>Free For The First 30 Days!</h5>
 						<h4>$15/Month</h4>
 						<p>Manage 1 Brand</p>
 						<ul>
@@ -99,11 +100,12 @@ get_header(); ?>
 							<li>Create Adobe Color Swatches</li>
 							<li>Invite Users to Collaborate</li>
 						</ul>
-						<a href="https://brandcardsapp.com/membership-account/membership-checkout/?level" target="_Blank" class="button">Select</a>
+						<a href="https://brandcardsapp.com/membership-account/membership-checkout/?level=1" target="_Blank" class="button">Select</a>
 					</div>
 
 					<div class="pricing_item col span_8">
 						<h2>Designer</h2>
+						<h5>Free For The First 30 Days!</h5>
 						<h4>$30/Month</h4>
 						<p>Manage 5 Brand</p>
 						<ul>
@@ -117,6 +119,7 @@ get_header(); ?>
 
 					<div class="pricing_item col span_8">
 						<h2>Agency</h2>
+						<h5>Free For The First 30 Days!</h5>
 						<h4>$50/Month</h4>
 						<p>Manage 10 Brand</p>
 						<ul>
