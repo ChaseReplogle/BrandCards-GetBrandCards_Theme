@@ -20,7 +20,7 @@ get_header(); ?>
 				<div class="text col span_16">
 					<h2>Your Brand Deserves Better.</h2>
 					<p>You care about your brand, but managing assets and people can be chaos. You end up trying to communicate with ridiculous files names and complicated shared folder systems. <strong>We think your brand deserves more...</strong></p>
-					<a href="#" class="button">Create An Account</a>
+					<a href="https://brandcardsapp.com/membership-account/membership-levels/" class="button">Create An Account</a>
 				</div>
 			</div>
 		</div>
