@@ -29,7 +29,7 @@ get_header(); ?>
 			<div class="app_image_wrapper container row">
 				<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_vgqvcj1b90 popover=true popoverAnimateThumbnail=true popoverContent=link videoFoam=true" style="display:inline"><a href="#"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/app_image.png" alt="BrandCards Interface"></a></span></div></div>
 
-				<p>BrandCards is an online app that allows you to create beautiful brand guidelines, manage all of your brand assets, and empower your team of designers, employees, and vendors. There's a place for everything: logos, colors, pallettes, typography, images, graphics, videos...</p>
+				<p>BrandCards is an online app that allows you to create beautiful brand guidelines, manage all of your brand assets, and empower your team of designers, employees, and vendors. There's a place for everything: logos, colors, palettes, typography, images, graphics, videos...</p>
 			</div>
 		</div>
 
