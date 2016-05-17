@@ -92,8 +92,7 @@ get_header(); ?>
 				<div class="row gutters">
 					<div class="pricing_item col span_8">
 						<h2>Brand</h2>
-						<h5>Free For The First 30 Days!</h5>
-						<h4>$15/Month</h4>
+						<h4>FREE</h4>
 						<p>Manage 1 Brand</p>
 						<ul>
 							<li>Build Online Brand Books</li>
