@@ -106,7 +106,7 @@ get_header(); ?>
 					<div class="pricing_item col span_8">
 						<h2>Designer</h2>
 						<h5>Free For The First 30 Days!</h5>
-						<h4>$30/Month</h4>
+						<h4>$15/Month</h4>
 						<p>Manage 5 Brand</p>
 						<ul>
 							<li>Build Online Brand Books</li>
@@ -120,7 +120,7 @@ get_header(); ?>
 					<div class="pricing_item col span_8">
 						<h2>Agency</h2>
 						<h5>Free For The First 30 Days!</h5>
-						<h4>$50/Month</h4>
+						<h4>$25/Month</h4>
 						<p>Manage 10 Brand</p>
 						<ul>
 							<li>Build Online Brand Books</li>
